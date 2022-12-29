@@ -252,7 +252,7 @@ export default function Home() {
         </section>
         <section id="about" className="text-black dark:text-white ">
           <h1 className="font-burtons text-3xl py-1 ">About Me</h1>
-          <p className="text-2xl dark:text-gray-400 pt-5">I am studying in University of Lodz. I am a final year student in Bachelor of Computer Science. Currently I am doing my thesis based on web application. I've worked with ReactJs, NodeJS, ExpressJS, RESTapi and many more.</p>
+          <p className="text-2xl dark:text-gray-400 pt-5">I am studying in University of Lodz. I am a final year student in Bachelor of Computer Science. Currently I am doing my thesis based on web application. I've worked with ReactJs,Nextjs, NodeJS, ExpressJS, RESTapi and many more.</p>
         </section>
 
         <section id="contact">
