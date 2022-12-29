@@ -262,7 +262,7 @@ export default function Home() {
             <div className="hero-content flex-col">
               <div className="text-center lg:flex gap-96 text-black dark:text-white">
                 <p><span className="font-semibold">Call:</span> +48792980810</p>
-                <p><span className="font-semibold">Email:</span> Muntasira7@hotmail.com</p>
+                <p><span className="font-semibold">Email:</span> Muntasira7@hotmail.com </p>
               </div>
               <div className="card w-full">
                 <form ref={form} onSubmit={sendEmail} className="card-body">
@@ -282,12 +282,10 @@ export default function Home() {
                   <div className="form-control mt-6">
                     <button type="submit" className="btn bg-gradient-to-r from-cyan-500 text- to-cyan-700 hover:text-amber-500">Sent</button>
                   </div>
-
                 </form>
               </div>
             </div>
           </div>
-
         </section>
       </main>
     </div>
