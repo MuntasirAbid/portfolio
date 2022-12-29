@@ -3,7 +3,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {
   AiFillLinkedin,
-  AiFillYoutube,
   AiFillGithub,
   AiFillFacebook,
 } from "react-icons/ai";
@@ -26,13 +25,14 @@ export default function Home() {
 
     emailjs.sendForm('service_fvykxff', 'template_amzssdb', form.current, 'fS0vV5F_k8ihXdq6e')
       .then((result) => {
-        console.log(result.text);
+        alert("Message send to Muntasir")
       }, (error) => {
         console.log(error.text);
+
       });
     e.target.reset();
-  };
 
+  };
 
   return (
     <div className={darkMode ? "dark" : ""} >
@@ -84,7 +84,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="text-center lg:flex sm:block justify-center items-center justify-between pt-32 ">
+          <div className="text-center lg:flex sm:block justify-between items-center  pt-32 ">
             <div>
               <h2 className="text-5xl text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
                 Muntasir Al Abid
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="text-center px-2">
                 <h1 className="py-5 text-3xl">Doctor's Portal</h1>
                 <p>
-                  I developed this doctor's portal website where patients could take appointments for treatment from a specific doctor and also added booking system on a specific date and time. I've used React, Firebase authentication,Tailwindcss with daisyUI, and a protected route system and data fetching on this website. and finally, include Stripe for payment and also used json web token to verify admin. Please visit about page.
+                  I developed this doctor's portal website where patients could take appointments for treatment from a specific doctor and also added booking system on a specific date and time. I've used React, Firebase authentication,TailwindCSS with daisyUI, and a protected route system and data fetching on this website. and finally, include Stripe for payment and also used json web token to verify admin. Please visit about page.
                   <br />
                   Stack
                 </p>
