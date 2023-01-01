@@ -138,7 +138,7 @@ export default function Home() {
                 </p>
                 <p className="pt-5 text-gray-600">React Javascript TailWindcss MongoDB</p>
               </div>
-              <div className="flex justify-between py-4 px-2 ">
+              <div className="flex justify-evenly py-10">
                 <a href="https://github.com/MuntasirAbid/doctor-prtal-client-side" rel="noreferrer" target='_blank'> <button className=" btn capitalize bg-amber-400 hover:bg-amber-600 text-black border-opacity-0 rounded-lg p-2">Client Side</button> </a>
                 <a href="https://doctors-portal-d453c.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
                 <a href="https://github.com/MuntasirAbid/doctors-portal-server-side" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
@@ -163,7 +163,7 @@ export default function Home() {
                 </p>
                 <p className="pt-5 text-gray-600">React Javascript Vanilla Css</p>
               </div>
-              <div className="flex justify-between py-4 px-2">
+              <div className="flex justify-evenly pt-28 pb-10 bottom-32">
                 <a href="https://github.com/MuntasirAbid/e-commerce-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
                 <a href="https://e-commerce-simple-44420.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
                 <a href="https://github.com/MuntasirAbid/e-commerce-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
@@ -190,7 +190,7 @@ export default function Home() {
                 </p>
                 <p className="pt-5 text-gray-600">React Javascript Bootstrap</p>
               </div>
-              <div className="flex justify-between py-4 px-2 capitalize">
+              <div className="flex justify-evenly py-4 pb-10 capitalize">
                 <a href="https://github.com/MuntasirAbid/news-portal-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
                 <a href="https://news-portal-9f7f7.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
                 <a href="https://github.com/MuntasirAbid/news-portal-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
@@ -216,7 +216,7 @@ export default function Home() {
                 <p className="pt-5 text-gray-600">React Javascript TailWind Firebase</p>
               </div>
 
-              <div className="flex justify-between py-4 px-2 ">
+              <div className="flex justify-evenly py-10  ">
                 <a href="https://github.com/MuntasirAbid/car-repair-garage-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
                 <a href="https://car-repair-506e2.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
                 <a href="https://github.com/MuntasirAbid/car-repair-garage-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
