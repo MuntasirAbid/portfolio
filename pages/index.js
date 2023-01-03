@@ -60,22 +60,22 @@ export default function Home() {
             </div>
             <div className=" hidden lg:flex mr-44">
               <ul className="menu menu-horizontal px-auto text-black dark:text-white ">
-                <li className="hover:text-amber-500"><a href="#projects">Projects</a></li>
-                <li className="hover:text-amber-500"><a href="#technology">Technologies</a></li>
-                <li className="hover:text-amber-500"><a href="#about">About</a></li>
-                <li className="hover:text-amber-500"><a href="#contact">Contact me</a></li>
+                <li className="hover:text-teal-600"><a href="#projects">Projects</a></li>
+                <li className="hover:text-teal-600"><a href="#technology">Technologies</a></li>
+                <li className="hover:text-teal-600"><a href="#about">About</a></li>
+                <li className="hover:text-teal-600"><a href="#contact">Contact me</a></li>
               </ul>
             </div>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" dark:text-white dark:hover:text-amber-500 cursor-pointer text-2xl text-black hover:text-amber-500  "
+                  className=" dark:text-white dark:hover:text-teal-500 cursor-pointer text-2xl text-black hover:text-teal-600  "
                 />
               </li>
               <li >
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-cyan-700 text-white px-4 py-2 border-none rounded-md ml-8 hover:text-amber-500"
+                  className=" bg-gradient-to-r from-cyan-400 text- to-cyan-700 hover:from-teal-400 hover:to-teal-900 hover:text-stone-800 text-white px-4 py-2 border-none rounded-md ml-8 "
                   href="https://drive.google.com/file/d/1-Hc3ZCQPfEnGUMiFlQ6nwRnrMl4F2Nr2/view?usp=sharing" rel="noreferrer" target='_blank'
                 >
                   Resume
@@ -134,14 +134,14 @@ export default function Home() {
                 <p>
                   I developed this doctor's portal website where patients could take appointments for treatment from a specific doctor and also added booking system on a specific date and time. I've used React, Firebase authentication,TailwindCSS with daisyUI, and a protected route system and data fetching on this website. and finally, include Stripe for payment and also used json web token to verify admin. Please visit about page.
                   <br />
-                  Stack
                 </p>
-                <p className="pt-5 text-gray-600">React Javascript TailWindcss MongoDB</p>
+                <p className="font-semibold py-5 text-gray-700">Stack</p>
+                <p className=" text-gray-600">React Javascript TailWindcss MongoDB</p>
               </div>
               <div className="flex justify-evenly py-10">
-                <a href="https://github.com/MuntasirAbid/doctor-prtal-client-side" rel="noreferrer" target='_blank'> <button className=" btn capitalize bg-amber-400 hover:bg-amber-600 text-black border-opacity-0 rounded-lg p-2">Client Side</button> </a>
-                <a href="https://doctors-portal-d453c.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
-                <a href="https://github.com/MuntasirAbid/doctors-portal-server-side" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
+                <a href="https://github.com/MuntasirAbid/doctor-prtal-client-side" rel="noreferrer" target='_blank'> <button className=" btn capitalize bg-amber-400 hover:bg-amber-500 text-black border-opacity-0 rounded-lg p-2">Client Side</button> </a>
+                <a href="https://doctors-portal-d453c.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
+                <a href="https://github.com/MuntasirAbid/doctors-portal-server-side" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
 
               </div>
             </div>
@@ -158,15 +158,14 @@ export default function Home() {
                 <h1 className="py-5 text-3xl">E-Commerce</h1>
                 <p>
                   E-commerce website where client could buy products. Here i have used React, Firebase for authentication, vanilla Css. and also a protected route system for users.
-                  <br />
-                  Stack
                 </p>
-                <p className="pt-5 text-gray-600">React Javascript Vanilla Css</p>
+                <p className="font-semibold py-5 text-gray-700">Stack</p>
+                <p className=" text-gray-600 ">React Javascript Vanilla Css</p>
               </div>
               <div className="flex justify-evenly pt-28 pb-10 bottom-32">
-                <a href="https://github.com/MuntasirAbid/e-commerce-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
-                <a href="https://e-commerce-simple-44420.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
-                <a href="https://github.com/MuntasirAbid/e-commerce-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
+                <a href="https://github.com/MuntasirAbid/e-commerce-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
+                <a href="https://e-commerce-simple-44420.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
+                <a href="https://github.com/MuntasirAbid/e-commerce-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
 
               </div>
 
@@ -185,15 +184,14 @@ export default function Home() {
                 <h1 className="py-5 text-3xl">News Portal</h1>
                 <p>
                   I have developed this news website for practice purpose. In this website I have implemented google and github login system. I used bootstrap as style component.
-                  <br />
-                  Stack
                 </p>
-                <p className="pt-5 text-gray-600">React Javascript Bootstrap</p>
+                <p className="font-semibold py-5 text-gray-700">Stack</p>
+                <p className=" text-gray-600">React Javascript Bootstrap</p>
               </div>
               <div className="flex justify-evenly py-4 pb-10 capitalize">
-                <a href="https://github.com/MuntasirAbid/news-portal-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
-                <a href="https://news-portal-9f7f7.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
-                <a href="https://github.com/MuntasirAbid/news-portal-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
+                <a href="https://github.com/MuntasirAbid/news-portal-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
+                <a href="https://news-portal-9f7f7.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
+                <a href="https://github.com/MuntasirAbid/news-portal-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
 
               </div>
             </div>
@@ -210,16 +208,15 @@ export default function Home() {
                 <h1 className="py-5 text-3xl">Car Repair Shop Portal</h1>
                 <p>
                   I developed this car repair shop website that sells car parts and fix car engine problems.
-                  <br />
-                  Stack
                 </p>
-                <p className="pt-5 text-gray-600">React Javascript TailWind Firebase</p>
+                <p className="font-semibold py-5 text-gray-700">Stack</p>
+                <p className=" text-gray-600">React Javascript TailWind Firebase</p>
               </div>
 
               <div className="flex justify-evenly py-10  ">
-                <a href="https://github.com/MuntasirAbid/car-repair-garage-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
-                <a href="https://car-repair-506e2.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
-                <a href="https://github.com/MuntasirAbid/car-repair-garage-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-600 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
+                <a href="https://github.com/MuntasirAbid/car-repair-garage-clientSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Client Side</button> </a>
+                <a href="https://car-repair-506e2.web.app/" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Live Site</button> </a>
+                <a href="https://github.com/MuntasirAbid/car-repair-garage-serverSide" rel="noreferrer" target='_blank'> <button className="btn bg-amber-400 hover:bg-amber-500 rounded-lg capitalize p-2 capitalize border-opacity-0 text-black">Server Side</button> </a>
               </div>
 
             </div>
@@ -280,7 +277,7 @@ export default function Home() {
 
                   <textarea style={{ height: "136px" }} className="textarea textarea-bordered" placeholder="Your message" name='message' required></textarea>
                   <div className="form-control mt-6">
-                    <button type="submit" className="btn bg-gradient-to-r from-cyan-500 text- to-cyan-700 hover:text-amber-500">Sent</button>
+                    <button type="submit" className="btn text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:from-teal-400 hover:via-teal-600 hover:to-teal-900 hover:text-stone-800">Sent</button>
                   </div>
                 </form>
               </div>
