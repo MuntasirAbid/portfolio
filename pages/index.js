@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -25,7 +26,9 @@ export default function Home() {
 
     emailjs.sendForm('service_fvykxff', 'template_amzssdb', form.current, 'fS0vV5F_k8ihXdq6e')
       .then((result) => {
-        alert("Message send to Muntasir")
+
+        toast.success('Message send to Muntasir')
+
       }, (error) => {
         console.log(error.text);
 
@@ -278,6 +281,7 @@ export default function Home() {
                   <textarea style={{ height: "136px" }} className="textarea textarea-bordered" placeholder="Your message" name='message' required></textarea>
                   <div className="form-control mt-6">
                     <button type="submit" className="btn text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:from-teal-400 hover:via-teal-600 hover:to-teal-900 hover:text-stone-800">Sent</button>
+                    <Toaster></Toaster>
                   </div>
                 </form>
               </div>
