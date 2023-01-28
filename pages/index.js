@@ -111,7 +111,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="mx-auto rounded-md w-90 h-90 relative overflow-hidden mt-16 md:h-96 md:w-96 drop-shadow-2xl transition duration-[2500ms] hover:scale-110">
+              <div className="mx-auto rounded-md w-96 h-96 relative overflow-hidden mt-16 md:h-[450px] md:w-[400px] drop-shadow-2xl transition duration-[2500ms] hover:scale-110">
                 <Image src={deved} alt="" layout="fill" objectFit="cover" />
               </div>
             </div>
