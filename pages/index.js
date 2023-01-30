@@ -110,8 +110,8 @@ export default function Home() {
 
               </div>
             </div>
-            <div>
-              <div className=" rounded-md w-72 h-80 relative overflow-hidden mt-16 md:h-[450px] md:w-[400px] drop-shadow-2xl transition duration-[2500ms] hover:scale-110">
+            <div className="flex items-center justify-center pb-8">
+              <div className="rounded-md w-64 h-80 relative overflow-hidden mt-16 md:h-[450px] md:w-[400px] drop-shadow-2xl transition duration-[2500ms] hover:scale-110">
                 <Image src={deved}
                   alt="" layout="fill" objectFit="cover" />
               </div>
