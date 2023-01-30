@@ -10,7 +10,7 @@ import {
 import { FaDatabase, FaFigma, FaReact } from 'react-icons/fa'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/me.JPG";
+import deved from "../public/me.jpg";
 import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
@@ -111,8 +111,9 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="mx-auto rounded-md w-96 h-96 relative overflow-hidden mt-16 md:h-[450px] md:w-[400px] drop-shadow-2xl transition duration-[2500ms] hover:scale-110">
-                <Image src={deved} alt="" layout="fill" objectFit="cover" />
+              <div className=" rounded-md w-72 h-80 relative overflow-hidden mt-16 md:h-[450px] md:w-[400px] drop-shadow-2xl transition duration-[2500ms] hover:scale-110">
+                <Image src={deved}
+                  alt="" layout="fill" objectFit="cover" />
               </div>
             </div>
           </div>
