@@ -10,7 +10,7 @@ import {
 import { FaDatabase, FaFigma, FaReact } from 'react-icons/fa'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/me.jpg";
+import deved from "../public/me2.jpg";
 import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
