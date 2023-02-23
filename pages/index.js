@@ -46,7 +46,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <div className="navbar flex justify-between">
+          <div className="navbar flex justify-between ">
             <div className="navbar-start">
               <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
               <a className="normal-case font-burtons text-black text-xl dark:text-white">Muntasir's Portfolio</a>
             </div>
-            <div className=" hidden lg:flex mr-44">
+            <div className=" hidden lg:flex mr-44 ">
               <ul className="menu menu-horizontal px-auto text-black dark:text-white ">
                 <li className="hover:text-teal-600"><a href="#projects">Projects</a></li>
                 <li className="hover:text-teal-600"><a href="#technology">Technologies</a></li>
@@ -69,22 +69,24 @@ export default function Home() {
                 <li className="hover:text-teal-600"><a href="#contact">Contact me</a></li>
               </ul>
             </div>
-            <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className=" dark:text-white dark:hover:text-teal-500 cursor-pointer text-2xl text-black hover:text-teal-600  "
-                />
-              </li>
-              <li >
-                <a
-                  className=" bg-gradient-to-r from-cyan-400 text- to-cyan-700 hover:from-teal-400 hover:to-teal-900 hover:text-stone-800 text-white px-4 py-2 border-none rounded-md ml-8 "
-                  href="https://drive.google.com/file/d/1-Hc3ZCQPfEnGUMiFlQ6nwRnrMl4F2Nr2/view?usp=sharing" rel="noreferrer" target='_blank'
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
+            <div >
+              <ul className="flex items-center">
+                <li>
+                  <BsFillMoonStarsFill
+                    onClick={() => setDarkMode(!darkMode)}
+                    className=" dark:text-white dark:hover:text-teal-500 cursor-pointer text-2xl text-black hover:text-teal-600  "
+                  />
+                </li>
+                <li >
+                  <a
+                    className=" bg-gradient-to-r from-cyan-400 text- to-cyan-700 hover:from-teal-400 hover:to-teal-900 hover:text-stone-800 text-white px-4 py-2 border-none rounded-md ml-8 "
+                    href="https://drive.google.com/file/d/1-Hc3ZCQPfEnGUMiFlQ6nwRnrMl4F2Nr2/view?usp=sharing" rel="noreferrer" target='_blank'
+                  >
+                    Resume
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="text-center lg:flex sm:block justify-between items-center  pt-32 ">
@@ -269,17 +271,17 @@ export default function Home() {
                 <form ref={form} onSubmit={sendEmail} className="card-body">
 
                   <div className="form-control">
-                    <input type="text" placeholder="Name" name='user_name' className="input input-bordered" />
+                    <input type="text" placeholder="Name" name='user_name' className="input  border-4 caret-teal-600 focus:border-teal-600" />
                   </div>
                   <div className="form-control">
-                    <input type="email" placeholder="Email Address" name='user_email' required className="input input-bordered" />
+                    <input type="email" placeholder="Email Address" name='user_email' required className="input  border-4 caret-teal-600 focus:border-teal-600" />
                   </div>
 
-                  <div className="form-control">
-                    <input type="text" placeholder="Subject" name='subject' className="input input-bordered " />
+                  <div className="form-control ">
+                    <input type="text" placeholder="Subject" name='subject' className="input  border-4 caret-teal-600 focus:border-teal-600 " />
                   </div>
 
-                  <textarea style={{ height: "136px" }} className="textarea textarea-bordered" placeholder="Your message" name='message' required></textarea>
+                  <textarea style={{ height: "136px" }} className="textarea border-4 caret-teal-600 focus:border-teal-600" placeholder="Your message" name='message' required></textarea>
                   <div className="form-control mt-6">
                     <button type="submit" className="btn text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:from-teal-400 hover:via-teal-600 hover:to-teal-900 hover:text-stone-800">Sent</button>
                     <Toaster></Toaster>
