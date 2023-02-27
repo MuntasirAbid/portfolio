@@ -79,7 +79,7 @@ export default function Home() {
                 </li>
                 <li >
                   <a
-                    className=" bg-gradient-to-r from-cyan-400 text- to-cyan-700 hover:from-teal-400 hover:to-teal-900 hover:text-stone-800 text-white px-4 py-2 border-none rounded-md ml-8 "
+                    className=" bg-gradient-to-r from-cyan-400 text- to-cyan-600 hover:from-teal-400 hover:to-teal-600 focus:from-teal-600 focus:to-teal-700 hover:text-stone-800 text-white px-4 py-2 border-none rounded-md ml-8 "
                     href="https://drive.google.com/file/d/1qtxkLKP8x4uWQ4gbfJAAqbUWYKkaiCYN/view?usp=sharing" rel="noreferrer" target='_blank'
                   >
                     Resume
@@ -283,7 +283,7 @@ export default function Home() {
 
                   <textarea style={{ height: "136px" }} className="textarea border-4 caret-teal-600 focus:border-teal-600" placeholder="Your message" name='message' required></textarea>
                   <div className="form-control mt-6">
-                    <button type="submit" className="btn text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-700 hover:from-teal-400 hover:via-teal-600 hover:to-teal-900 hover:text-stone-800">Sent</button>
+                    <button type="submit" className="btn  text-white bg-gradient-to-r from-cyan-500 via-cyan-600 to-cyan-500 hover:from-teal-400 hover:via-teal-600 hover:to-teal-400 focus:from-teal-700 focus:via-teal-800 focus:to-teal-700 hover:text-stone-800">Sent</button>
                     <Toaster></Toaster>
                   </div>
                 </form>
