@@ -104,7 +104,7 @@ export default function Home() {
               <p className="text-md pb-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">I have experience working on basic HTML, CSS, JavaScript, Typescript, ReactJS, NextJS, NodeJs, MongoDB.</p>
               <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
 
-                <a className="transition duration-300 hover:scale-125 hover:text-teal-600" href="https://github.com/MuntasirAbid?tab=repositories" rel="noreferrer" target='_blank'> <AiFillGithub /> </a>
+                <a className="transition duration-300 hover:scale-125 hover:text-teal-600" href="https://github.com/MuntasirAbid" rel="noreferrer" target='_blank'> <AiFillGithub /> </a>
 
                 <a className="transition duration-300 hover:scale-125 hover:text-teal-600" href="https://www.linkedin.com/in/muntasir-al-abid-b62247172/" rel="noreferrer" target='_blank'> <AiFillLinkedin /> </a>
 
